@@ -101,7 +101,7 @@ describe('autoInject', function () {
 
     var arrowSupport = true;
     try {
-        new Function('x => x');
+        // new Function('x => x');
     } catch (e) {
         arrowSupport = false;
     }
